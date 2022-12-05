@@ -28,22 +28,22 @@ end
 
 //imprime: "Hola mundo" cuando llamamos el modulo HolaMundo.imprimir_hola_mundo \
 ///////////////////////////// 
-defmodule HolaMundo do 
-   def saludo(msg) do
-     IO.puts(msg)
-   end
-end
+defmodule HolaMundo do \
+   def saludo(msg) do  \
+     IO.puts(msg)      \
+   end                 \
+end                    \
 \
 HolaMundo.saludo("Este es un mensaje de prueba")
 \
 // Imprime: "Este es un mensaje de prueba" \
 ///////////////////////////
 \
-defmodule Geometria do
-   def perimetro1(l),do: cuadrado(l)
-   def perimetro2(l),do: Geometria.cuadrado(l)
-   def cuadrado(l), do: l*l
-end
+defmodule Geometria do \
+   def perimetro1(l),do: cuadrado(l) \
+   def perimetro2(l),do: Geometria.cuadrado(l) \
+   def cuadrado(l), do: l*l \
+end 
 \
 Geometria.cuadrado(7)
 \
