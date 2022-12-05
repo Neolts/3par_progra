@@ -36,7 +36,7 @@ end
 \
 HolaMundo.saludo("Este es un mensaje de prueba")
 \
-// Imprime: "Este es un mensaje de prueba"
+// Imprime: "Este es un mensaje de prueba" \
 ///////////////////////////
 \
 defmodule Geometria do
@@ -47,5 +47,5 @@ end
 \
 Geometria.cuadrado(7)
 \
-//Imprime "49" 
-//Si la funcion fuera "defp" se hace privada y no realiza desde el shell porque es privado.
+//Imprime "49" \
+//Si la funcion fuera "defp" se hace privada y no realiza la funcion desde el shell porque es privado.
